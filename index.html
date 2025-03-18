@@ -12,4 +12,33 @@
             color: white;
             text-align: center;
         }
-        head
+        header {
+            padding: 50px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 1em;
+            color: white;
+            background: #ff9800;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #e68900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to My Interactive Page
+        <br>
+        <button class="btn" onclick="alert('Welcome! Enjoy your visit.')">Click Me</button>
+    </header>
+</body>
+</html>
